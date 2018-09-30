@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+html {background: #2d2d2d;}
+body {
+  background-color: #f2f2f2;
+  font-family:  "Lato";
+  font-weight: 300;
+  font-size: 12px;
+  color: #555;
+  overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: white;
+}
+
+p {
+  color: white;
+  line-height: 28px;
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #f85c37;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-inverse {
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #00db6a;
+  border-radius: 10px;
+}
+
+
+.navbar-inverse .navbar-brand {
+  color: #999;
+  font-weight: bolder;
+  font-size:  22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  text-align: center;
+  background-attachment: relative;
+  background-position:  center center;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+
+  color: white;
+  font-size: 40px;
+  font-weight: 300px;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.panel-dark {
+  border-color: #2d2d2d;
+  background-color: #2d2d2d;
+  margin-top: -3px;
+  margin-left: 0;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  overflow-y: scroll;
+  height: 100%;
+  position: absolute;
+  top: 150px:
+
+  }
+
+.panel-dark > .panel-heading {
+    background: url(../img/2.jpg) no-repeat center bottom;
+    border-color: #2d2d2d;
+    height: 400px;
+    overflow-x: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.panel-dark > .panel-body {
+  background-color: #2d2d2d;
+  height: 100%;
+
+}
+
+.panel-body > p {
+  background-color: #3d3d3d;
+  font-weight: 12px;
+  max-height: 100%;
+  overflow-y: hidden;
+}
+
+.content {
+  background: url(../img/setwalls.ru-68564.jpg) no-repeat center top;
+  position: absolute;
+  height: 100%;
+  overflow-y: scroll;
+
+
+}
+
+.w h4 {
+   font-size: 25px;
+ }
+
+#dg {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+
+}
+
+#dg h4 {
+  font-size: 40px;
+
+}
+
+.tilit {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilit:hover {
+  -webkit-transform: translateY(-80px);
+     -moz-transform: translateY(-80px);
+       -o-transform: translateY(-80px);
+      -ms-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
+.wb {
+  padding-top: 35px;
+  margin-bottom: 0;
+}
+
+.vb h4 {
+  font-size: 35px;
+}
+
+.icons > a > i {
+  color: #45688e;
+  font-size: 30px;
+}
+
+.s {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #2d2d2d;
+  background: url(../img/hqdefault.jpg) no-repeat center top;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-left: 25px;
+
+
+}
+
+.s_img {
+  width: 300px;
+  height: 250px;
+}
+
+.s_p {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.s_h3 {
+  padding-top: 7px;
+  margin-top: 230px;
+  background-color:  rgba(153, 153, 153, 0.5);
+  height: 50px;
+}
